@@ -1,0 +1,5 @@
+File format: .wav
+Bit Depth: 32 bits
+Sample Rate: 48khz
+Buffer Size: 512 Samples
+Dither Option: Triangular
