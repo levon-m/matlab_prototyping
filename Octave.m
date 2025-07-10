@@ -12,7 +12,7 @@ inFile   = "Jam.wav";    % mono/stereo WAV @ 48 kHz
 block    = 512;                    % buffer size
 wetInit  = 0.8;                    % initial wet %
 fcInit   = 6000;                   % Hz  LPF cutoff start
-fcRange  = [100 12000];            % Hz  slider limits
+fcRange  = [100 12000];            % Hz  slOctider limits
 fcStep   = 5;                      % Hz  minimum change that triggers update
 
 %% 2) Streaming I/O objects ----------------------------------------------
