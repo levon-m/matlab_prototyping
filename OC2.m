@@ -1,4 +1,4 @@
-function Octave
+function OC2
 % • Live polarity-flip divider (–12 semitones) – no pre-render
 % • Wet/Dry mix & sweepable low-pass (first-order IIR, fully tunable)
 % • Test clip loops forever so you can tweak hands-free
@@ -8,7 +8,7 @@ function Octave
 % Requires Audio Toolbox + DSP System Toolbox (any recent version)
 
 %% 1) User settings -------------------------------------------------------
-inFile   = "Jam.wav";    % mono/stereo WAV @ 48 kHz
+inFile   = "Chord Memory.wav";    % mono/stereo WAV @ 48 kHz
 block    = 512;                    % buffer size
 wetInit  = 0.8;                    % initial wet %
 fcInit   = 6000;                   % Hz  LPF cutoff start
